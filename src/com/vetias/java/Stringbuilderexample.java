@@ -1,5 +1,7 @@
 package com.vetias.java;
 
+import java.util.Scanner;
+
 public class Stringbuilderexample {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
