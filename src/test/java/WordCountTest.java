@@ -1,0 +1,19 @@
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+
+public class WordCountTest {
+    @Test
+    public void testCount() {
+        WordCount wordCount = WordCount.WordCount();
+        int count = wordCount.count("this is a java program");
+        Assertions.assertEquals(5, count);
+
+    }
+    @Test
+    public void testAnothrString() {
+        WordCount WordCount = WordCount.WordCount();
+        int count = wordCount.count("this is a java program");
+        Assertions.assertEquals(5, count);
+    }
+
+}  
