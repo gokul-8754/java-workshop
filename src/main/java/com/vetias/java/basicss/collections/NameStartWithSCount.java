@@ -1,4 +1,4 @@
-package com.vetias.java.basicss.string;
+package com.vetias.java.basicss.collections;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,12 @@ public class NameStartWithSCount {
         names.add("David");
         names.add("Sathish");
         names.add("Frank");
-        long nameCount = names.stream()
-                .filter(name -> name.startsWith("S")).count();
-        System.out.println(nameCount);
+        names.stream()
+                .filter(name -> name.startsWith("S"))
+                .distinct()
+                .map(String::toUpperCase)
+                .forEach(System.out::println);
+    
                 
         
     }

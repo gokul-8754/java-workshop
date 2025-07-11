@@ -1,4 +1,4 @@
-package com.vetias.java.basicss.collections;
+package com.vetias.java.basicss.Stream;
 
 import java.util.ArrayList;
 import java.util.Collections;
