@@ -1,4 +1,7 @@
 import org.junit.jupiter.api.Test;
+
+import com.vetias.java.workshop.basics.string.WordCount;
+
 import org.junit.jupiter.api.Assertions;
 
 public class WordCountTest {

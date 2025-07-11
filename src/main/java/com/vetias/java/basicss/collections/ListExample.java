@@ -13,6 +13,7 @@ public class ListExample {
         names.add("David");
         names.add("Eve");
         names.add("Frank");
+        
         names.forEach(System.out::println);
         names.sort(Comparator.reverseOrder());
         System.out.println(names);
