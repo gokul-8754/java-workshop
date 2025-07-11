@@ -1,4 +1,4 @@
-package com.vetias.java.basicss.string;
+package com.vetias.java.basicss.Stream;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

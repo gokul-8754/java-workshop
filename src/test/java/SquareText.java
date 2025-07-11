@@ -1,9 +1,10 @@
 
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
-import com.vetias.java.basicss.collections.Square;
+import com.vetias.java.basicss.string.Square;
+
+import org.junit.jupiter.api.Assertions;
 
 public class SquareText {
 
