@@ -14,8 +14,8 @@ public class WordCountTest {
     }
     @Test
     public void testAnothrString() {
-        WordCount WordCount = WordCount.WordCount();
-        int count = wordCount.count("this is a java program");
+        WordCount WordCount = com.vetias.java.workshop.basics.string.WordCount.WordCount();
+        int count = WordCount.count("this is a java program");
         Assertions.assertEquals(5, count);
     }
 

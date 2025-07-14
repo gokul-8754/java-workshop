@@ -9,4 +9,9 @@ public class WordCount {
     
     }
 
+    public static WordCount WordCount() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'WordCount'");
+    }
+
 }

@@ -1,4 +1,4 @@
-package com.vetias.java.workshop.beans;
+package com.vetias.java.beans;
 
 public class TempertaureData {
     public static void main(String[] args) {
